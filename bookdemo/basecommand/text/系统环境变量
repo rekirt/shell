@@ -1,0 +1,11 @@
+登录时加载的shell
+/etc/profile
+$HOME/.bash_profile
+$HOME/.bash_login
+$HOME/.profile
+
+非登录打开bash的交互式shell
+$HOME/.bashrc
+
+非登录运行脚本的shell
+BASH_ENV
