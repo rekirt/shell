@@ -1,8 +1,11 @@
 #!/bin/bash
-# redirecting the for output to a file
-for (( a=1;a<10;a++ ))
-do 
-    echo "the number is $a"
-done 
-
-echo "the command is finished"
+#redirecting to a file
+for file in /home/lc/Desktop/*
+  do
+    if [ -d "$file" ] 
+    then
+        echo "$file is a directory"
+    else
+        echo "$file is a file"
+    fi
+  done > test23.txt

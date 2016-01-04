@@ -1,0 +1,11 @@
+/home/lc/Desktop/dd is a file
+/home/lc/Desktop/dd~ is a file
+/home/lc/Desktop/Firefox Recovery Key.html is a file
+/home/lc/Desktop/NeteaseMusic.desktop is a file
+/home/lc/Desktop/qq-test.desktop is a file
+/home/lc/Desktop/teamr is a directory
+/home/lc/Desktop/test.html is a file
+/home/lc/Desktop/ubuntu常用软件 is a file
+/home/lc/Desktop/ubuntu常用软件~ is a file
+/home/lc/Desktop/这是一个神奇的命令 is a file
+/home/lc/Desktop/这是一个神奇的命令~ is a file

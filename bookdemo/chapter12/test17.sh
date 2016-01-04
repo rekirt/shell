@@ -1,19 +1,11 @@
 #!/bin/bash
-#
-var1=3
-until [ $var1 -eq 0 ]
+# breaking out of a for loop
+for var1 in 1 2 3 4 5 6 7 8 9 10
 do
-    echo "Outer loop : $var1"
-    var2=1
-    while [ $var2 -lt 5 ]
-    do
-       # var3=$[ $var1 /$var2 ]
-        var3=`echo "scale=4;$var1/$var2" | bc` 
-        echo "Inside loop : $var1 / $var2 = $var3"
-        var2=$[ $var2+1 ]
-    done
-    var1=$[ $var1 -1 ]
+    if [ $var1 -eq 5 ];then
+        break
+    fi
+    echo "Iteration number: $var1"
 done
-
-
+echo "the for loop is commpleted"
 
