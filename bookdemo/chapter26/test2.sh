@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+#备份系统文件
+#
 DATE=`date +%y%m%d`
 FILE=archive$DATE.tar.gz
 

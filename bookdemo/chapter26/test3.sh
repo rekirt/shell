@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+#按日期备份系统文件,按照目录层级备份
+#
 
 BASEDEST=/home/lc/workspace/shell/bookdemo/chapter26
 DAY=`date +%d`
