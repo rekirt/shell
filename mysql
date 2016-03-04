@@ -1,0 +1,14 @@
+
+测试主机	192.168.0.241
+用户名/密码	test/ebatpwd0
+登录方式	ssh test@192.168.0.241
+
+
+链接数据库
+mysql -h192.168.0.241 -uimixpark -pimixpark
+
+
+数据库	imixpark
+用户名/密码	imixpark/imixpark
+JDBC链接	jdbc.url=jdbc:log4jdbc:mysql://192.168.0.241/imixpark?useUnicode=true&characterEncoding=utf-8
+
