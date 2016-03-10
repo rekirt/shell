@@ -1,0 +1,133 @@
+
+if条件判断
+
+if condition ; then
+    command
+elif condition ;then
+    command
+else
+    command
+fi
+
+
+if命令多和test命令结合
+
+test condition 
+
+shell中的简写形式
+
+[ condition ]
+
+test数值比较的用法
+
+[ n1 -eq n2 ]	检查n1是否等于n2
+[ n1 -ge n2 ]	检查n1是否大于等于n2
+[ n1 -gt n2 ]	检查n1是否大于n2
+[ n1 -le n2 ]	检查n1是否小于等于n2
+[ n1 -lt n2 ]	检查n1是否小于n2
+[ n1 -ne n2 ]	检查n1是否不等于n2
+
+
+
+test字符串比较的用法
+[ str1 = str2 ]	检查str1是否和str2相同
+[ str1 != str2 ]检查str1是否和str2不同
+[ str1 < str2 ]	检查str1是否比str2小
+[ str1 > str2 ]	检查str1是否比str2大
+[ -n str1 ]	检查str1的长度是否为非0
+[ -z str1 ]	检查str1的长度是否为0
+
+
+
+
+test文件比较的用法
+
+
+
+[ -d file ]
+[ -e file ]
+[ -f file ]
+[ -r file ]
+[ -s file ]
+[ -w file ]
+[ -x file ]
+[ -0 file ]
+[ -G file ]
+[ file1 -nt file2 ]
+[ file1 -ot file2 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
