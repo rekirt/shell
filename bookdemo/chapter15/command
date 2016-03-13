@@ -10,6 +10,59 @@
 18	SIGTSTP	停止或暂停进程，但不终止进程
 19	SIGCONT	继续运行停止的进程
 
+??	EXIT 	程序退出的信号
+
+trap `command` 信号值 当出现该信号时会执行相应的命令
+
+trap - 信号值 移除对某个信号的监测
+
+
+command &  以后台模式运行，可以接收到SIGHUP信号
+nohup command & 以后台模式运行，不接收SIGHUP信号
+
+jobs options
+
+options:
+-l 	列出进程的PID以及作业号
+-n 	只列出上次shell发出的通知后改变了状态的作业
+-p	只列出作业的PID
+-r	只列出运行的作业
+-s	只列出已停止的作业
+
+
+
+
+
+bg 作业号	以后台模式重启某个作业
+fg 作业号	以前台模式重启某个作业
+
+
+调度优先级-20~20,-20优先级最高,20优先级最低
+
+nice -n 调度优先级 command	以指定优先级运行某个命令
+
+renice 调度优先级 -p PID	修改某个已运行进程的调度优先级
+
+普通用户只能对自己的进程执行renice
+renice只能降低已运行的进程的调度优先级，不能提高已运行进程的优先级
+root用户可以通过renice修改任何进程的调度优先级到任何级别
+
+
+at -f filename time	在指定time运行 filename这个脚本文件
+
+atq 	列出正在等待执行的作业
+
+atrm 	移除等待执行的作业
+
+
+min hour dayofmonth month dayofweek command 
+15 10 * * * command 	每天10:15 执行这个命令
+15 10 * * 1 command	每周一10:15执行这个命令
+00 12 1 * * command	每个月的第一天12:00执行这个命令
+
+
+在系统开机时需要运行的脚本可以在/etc/rc.local中添加
+开启新的shell时需要运行的脚本可以在.bash_profile,.bashrc中添加
 
 
 
