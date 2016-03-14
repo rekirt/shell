@@ -1,0 +1,2 @@
+read -p "message" value	读取一个输入，并把输入的值赋值给value
+
