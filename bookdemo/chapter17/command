@@ -1,0 +1,94 @@
+dialog --widget parameters
+
+
+--widget
+
+calendar	提供选择日期的日历
+checklist	显示多个选项
+from		构建表单
+fselect		提供一个文件选择窗口来浏览选择文件
+gauge		显示完成的百分比进度条
+infobox		显示一条消息，但不等待回应
+inputbox	提供一个输入文本的文本表单
+inputmenu	提供一个可编辑的菜单
+menu		显示一个可选择的列表
+msgbox		显示一个消息，要求用户输入OK按钮
+pause		显示一个进度条来显示特定暂定时间的状态
+passwordbox	显示一个文本框，文本框中的内输入会隐藏 
+passwordform	显示一个带标签和隐藏文本输入的表单
+radiolist	提供一组菜单选项，但只能选择其中一个
+tailbox		tail命令在滚动窗口中显示文件的内容
+tailboxbg	跟tailbox一样,但在以后台模式运行
+textbox		在滚动窗口中显示文件的内容
+timebox		提供一个选择小时，分钟，秒数的窗口
+yesno		提供一个简单的带Yes和No按钮的消息
+
+
+
+
+
+parameters
+
+--add-widget	继续下一个对话框，直到按下Esc或Cancel按钮
+--aspect ratio	指定窗口宽度和宽度的宽高比
+--backtitle title 指定在屏幕顶部背景上的标题
+--begin x y 	指定在窗口左上角的起始位置
+--cancel-label label 指定Cancel按钮的替代标签
+--clear 	用默认对话背景色来清空显示
+--colors	在对话文本中嵌入ANSI色彩编码
+--cr-wrap	在对话文本中允许使用换行符并强制换行
+--create-rc file 将示例配置文件的内容复制到指定的file文件中
+--defaultno 	将yes/no对话的默认答案设为No
+--default-item string 设定复选列表 表单或菜单对话中的默认选项
+--exit-label label 指定Exit按钮的替代标签
+--extra-button 	在OK按钮和Cancel按钮中显示一个额外按钮
+--extra-label label 指定额外按钮的替代标签
+--help 		显示dialog命令的帮助信息
+--help-button	显示OK按钮和Cancel按钮后显示一个Help按钮
+--help-label label  指定Help按钮的替代标签
+--help-status 	当选定Help按钮时,会在帮助信息后写入多选列表，单选列表或表单信息
+--ignore	忽略dialog不能识别的选项
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
