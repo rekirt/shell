@@ -48,7 +48,9 @@ parameters
 --help-label label  指定Help按钮的替代标签
 --help-status 	当选定Help按钮时,会在帮助信息后写入多选列表，单选列表或表单信息
 --ignore	忽略dialog不能识别的选项
-
+--input-fd fd	指定另一个文件描述符，而不是STDN
+--insecure	在password部件中键入时显示
+--item-help	为多选列表，单选列表或菜单中的每个标号在屏幕的底部添加一个帮助栏
 
 
 

@@ -1,0 +1,36 @@
+gawk options program file
+
+-F	指定航中分隔数据字段的字段分隔符
+-f file	指定读取程序的文件名
+-v var=value 定义gawk程序中的一个变量及其默认值
+-mf N 	指定要处理的数据文件中的最大字段数
+-mr N	指定数据文件中的最大数据行数
+-W keyword 指定gawk的兼容模式或警告等级
+
+$0	代表整个文本行
+$1	代表文本行中的第1个数据字段
+$2	代表文本行中的第2个数据字段
+$n	代表文本行中的第n个数据字段
+
+gawk '{print $1}' data
+打印data数据中的每行的第一个字段(每个字段用空格分开)
+
+gawk -F: '{print $1}' /etc/passwd
+以':'分隔每一行中的数据
+
+gawk -F: -f script2 /etc/passwd
+以':'分隔符分隔 passwd文件，对每一行文件执行-f所指向的文件中的命令
+
+gawk 'BEGIN {print "run before {} run"} {} END {print "run after {} run"}'
+
+
+
+
+
+
+
+
+
+
+
+

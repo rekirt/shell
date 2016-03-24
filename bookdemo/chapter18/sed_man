@@ -1,0 +1,60 @@
+sed option script file
+
+-e script	在处理输入时，将script中指定的命令添加到运行的命令中
+-f file		在处理输入时，将file中指定的命令添加到运行的命令中
+-n 		不要为每个命令生输出，等待print命令输出
+
+
+sed 's/src/desc/' data
+s 命令会把src中的数据替换为desc中数据(只能替换该行第一次出现的匹配数据)
+
+
+
+sed 's/src/desc/flag' data
+flag
+数字n 	替换第n处匹配到的数据
+g	替换一行中所有匹配到的模式
+p	打印匹配到的数据，多与-n组合使用，只打印匹配到的数据
+w file	将匹配到的数据写入file
+
+sed 's/test/god/3' data 只替换第三处匹配到的数据
+sed 's/test/fuber/g' data 替换所有匹配到位置的数据
+sed -n 's/test/log/p' data 不带-n的打印将打印原始数据，带-n的打印将只打印匹配的数据
+sed 's/test/joker/w output' data  将匹配到的数据写入到output文件中
+
+
+
+sed -e 's/src/desc/;s/src/desc/;...' data 
+多条's'命令时需要添加'-e'参数(不加也可以,-_-)， 并且多条命令使用';'号分开
+
+sed -f script data
+将script中的命令作用在data上
+
+
+转义字符
+sed 's/\/bin\/bash/\/bin\/csh/' /etc/passwd
+sed 's!bin/bash!/bin/csh!'
+
+地址使用
+sed '2s/dog/cat/' data 
+替换第2行中匹配的数据
+sed '2,10s/dog/cat/' data
+替换第2行到第10行匹配的数据
+sed '3,$s/dog/cat/'
+替换第3行到末尾所有匹配的数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
