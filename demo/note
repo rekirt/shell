@@ -1,0 +1,22 @@
+打开一个activity 按下home键，再点击桌面的app图标生命周期变化
+
+onCreateView
+onCreaate
+onStart
+onResume
+
+按下home
+onPause
+再次点击桌面图标
+onRestart
+onStart
+onResume
+
+再按返回键
+onPause
+onDestory
+
+
+
+
+
