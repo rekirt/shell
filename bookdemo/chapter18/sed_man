@@ -44,6 +44,91 @@ sed '3,$s/dog/cat/'
 替换第3行到末尾所有匹配的数据
 
 
+sed '/pattern/command' data 
+在data使用pattern进行模式匹配
+
+
+删除行
+sed 'd' data
+删除 data中所有行
+sed '3d' data
+删除data中第3行
+sed '2,3' data
+删除data中第2,3行
+sed '3,$d' data
+删除data中第3行到最后
+
+sed '/pattern 2/d' data
+删除匹配行中的第2行
+
+
+插入和删除命令
+sed '[n]option\content' data
+n地址
+  支持单行寻址，多行寻址，区间寻址
+option
+  i插入
+  a追加
+  c修改
+
+
+sed '2,3c\contents' data
+将data中的2,3行数据修改为contents,合并为1行
+
+sed 'ni\insert content' data
+在data中第n行插入数据
+echo "data" | sed 'a\append content'
+在data之后追加数据
+
+
+sed 'y/chararray1/chararray2' data
+在data中进行字符替换,chararray1替换对应子的每个字符都会被替换为chararray2
+
+
+sed -n '/3/{
+> p
+> s/line/test/p
+> }' data
+
+对匹配3的数据执行{}中的命令,先打印原始数据，再替换数据后再打印
+-n 参数只打印匹配到的数据
+
+sed -n '/number 4/{
+=
+p
+}' data
+
+将匹配到的数据打印行号和原样输出
+
+
+
+sed -n 'l' data
+打印不可打印的ASCII字符
+
+
+sed读写数据
+
+sed '[n,m]w file' data
+将data中n-m行的数据写入到file
+
+sed '/pattern/w file' data
+将data匹配到的数据写入到file
+
+sed '[n]r file' data
+将file中的数据追加到data的第n行之后
+如果n为$则追加到data的末尾
+sed '/pattern/r file' data
+将file中的数据读出插入data中匹配模式中的位置
+
+
+
+
+
+
+
+
+
+
 
 
 
