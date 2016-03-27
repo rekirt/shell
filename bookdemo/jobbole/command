@@ -1,0 +1,52 @@
+sort -nr data
+ -n 根据数字排序
+ -r 逆序排序 
+
+uniq -c
+ -c 打印出重复行数
+
+data | head -n 只显示data中的前n行数据
+
+
+gzip/tar 压缩/解压
+cat/zcat 文件查看
+less/more 文件查看,支持gz压缩格式直接查看
+head/tail 查看文件前/后10行
+wc 统计行数，单词数，字符数
+du -h -c -s 查看某个目录空间占用
+
+
+awk 命令行下的数据库操作工具
+join/cut/paste 关联文件/切分字段/合并文件
+fgrep/grep/egrep 全局正则表达式查找
+find 文件查找，并且对查找结果批量化执行任务
+sed 流编辑器，批量修改，替换文件
+split 对大文件进行切分处理，按多少行一个文件，或者多少字节一个文件
+rename 批量重命名(Ubuntu上带的perl脚本,其他系统需要安装) 使用-n命令进行测试
+
+
+
+date 命令行时间操作函数
+sort/uniq 排序，去重，统计
+comm 对两个排序文件进行按行比较(共同行，只出现在左边文件，只出现在右边文件)
+diff 逐字符比较文件的异同，配合cdiff，类似于github的显示效果
+curl/w3m/httpie 命令行下的网络请求
+iconv 文件编码转换，如,iconv -f GB2312 -t UTF8 1.csv > 2.csv
+seq 产生连续的序列，配合 for循环使用
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
