@@ -1,0 +1,4 @@
+the cost is $4.00
+
+# sed -n '/\$/p' data2 打印匹配$的行
+# echo "3/2" | sed -n '/\//p'

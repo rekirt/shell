@@ -1,0 +1,7 @@
+this is a test of using both anchors
+i said this is a test
+this is a test
+i'm sure this is a fucking test
+
+# sed -n '/^this is a test$/p' data4
+

@@ -1,0 +1,7 @@
+this is a normal line of text
+this is a line with too many spaces
+this is  a line with too many spaces
+
+# sed -n "/  /p" data1 过滤出data1中的空格行
+
+

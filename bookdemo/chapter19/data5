@@ -1,0 +1,5 @@
+this is one test line
+
+this is another test line
+
+# sed '/^$/d' data5 去除空白行
