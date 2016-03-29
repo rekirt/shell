@@ -121,25 +121,3 @@ sed '/pattern/r file' data
 将file中的数据读出插入data中匹配模式中的位置
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
