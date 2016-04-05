@@ -1,0 +1,33 @@
+#软件安装
+
+1下载源码查看md5是否与官方提供的一致
+md5sum soft.tar.gz
+
+2解压文件
+tar -zxvf soft.tar.gz
+
+3配置文件安装信息
+切换到解压目录
+cd soft
+
+./configure --prefix=installpath指定文件的安装位置
+
+make 编译文件
+
+make install 安装文件
+
+
+
+httpd服务安装
+在/etc/init.d/目录中添加httpd的链接
+
+service service_name status 查看服务的状态
+修改httpd的配置文件/user/local/httpd/conf/httpd.conf
+查找Servername字段,修改例子的名称
+产检httpd.conf文件是否有语法错误
+/usr/local/httpd/bin/apachectl -t
+Syntax OK
+启动服务
+/etc/init.d/httpd start
+
+
