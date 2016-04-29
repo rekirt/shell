@@ -47,6 +47,8 @@ seq 产生连续的序列，配合 for循环使用
 
 
 
+mail -s 标题　mail@address.com
+
 
 
 
