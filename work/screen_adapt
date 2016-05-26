@@ -1,0 +1,18 @@
+ldpi 	~120dpi
+mdpi 	120dpi~160dpi
+hdpi 	160dpi~240dpi
+xhdpi 	240dpi~320dpi
+xxhdpi 	320dpi~480dpi
+xxxhdpi 480dpi~640dpi
+
+    全部
+    2560x1440
+    2560x1600
+    1920x1200
+    1920x1152
+    1920x1080
+    1280x768
+    1280x720
+    960x540
+    854x480
+    800x480
