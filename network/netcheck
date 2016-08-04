@@ -1,0 +1,2 @@
+ubuntu16后删除了nm-tool用nmcli替代 
+nmcli dev show 可以查看MAC, IP, DNS等信息
