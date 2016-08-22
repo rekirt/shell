@@ -1,0 +1,41 @@
+
+以舒服的方式显示提交的记录信息
+git log --pretty=format:"%h -%an,%ar : %s"  
+%h head的sha1
+%an 提交者姓名
+%ar 提交时间
+%s  提交信息
+
+将文件从git中移除
+git rm -r -n --cached "bin/" //-n：加上这个参数，执行命令时，是不会删除任何文件，而是展示此命令要删除的文件列表预览。
+git rm -r --cached  "bin/"      //最终执行命令. 
+git commit -m" remove bin folder all file out of control"    //提交
+git push origin master   //提交到远程服务器
+
+
+查看某人的提交记录
+Git log  --author=””
+图形方式显示修改记录
+git log --pretty=format:"%h %an %ar %s" --graph
+
+创建一个轻量级标签
+git tag v1.0.8
+
+创建一个附注标签
+git tag -a  v1.0.8-rc0 -m "方便版本测试修复bug"
+给历史版本打标签
+git tag -a v1.0.7 a2bf37 -m "历史版本打标签"
+切换到某个标签分支
+git checkout -b version1.0.8(分支名称) v1.0.8
+把指定标签推送到服务器
+git push origin v1.5
+把所有标签推送到服务器
+git push origin --tags
+
+
+/**
+ * Author: ${USER}
+ * Email: rekirt@163.com
+ * Date: ${DATE}.
+ */
+

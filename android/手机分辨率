@@ -1,0 +1,48 @@
+
+资源文件  dpi         destiny
+ldpi    0dpi~120dpi
+mdpi 	120dpi~160dpi
+hdpi 	160dpi~240dpi
+xhdpi 	240dpi~320dpi
+xxhdpi 	320dpi~480dpi 
+xxxhdpi 480dpi~640dpi
+
+
+dpi destiny
+120 0.75
+160 1.0
+213 1.33125
+240 1.5
+320 2.0
+420 2.625
+480 3.0
+560 3.5
+640 4.0
+
+dp 与密度无关的单位
+sp 与密度和scale都无关
+dp = px/destiny
+
+模拟器
+120 资源ldpi,图片默认
+160 资源mdpi,图片默认 
+213 资源hdpi,图片xhdpi
+240 资源hdpi,图片xhdpi
+320 资源xhdpi,图片xhdpi
+420 资源xxhdpi,图片xhdpi
+480 资源xxhdpi,图片xhdpi
+560 资源xxxhdpi,图片xhdpi
+
+真机
+120 资源ldpi,图片默认
+160 资源mdpi,图片默认 
+213 资源hdpi,图片xhdpi
+240 资源hdpi,图片xhdpi
+320 资源xhdpi,图片xhdpi
+420 资源xxhdpi,图片xxhdpi
+480 资源xxhdpi,图片xxhdpi
+560 资源xxxhdpi,图片xxxhdpi
+
+
+
+

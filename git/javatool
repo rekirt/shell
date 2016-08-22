@@ -1,0 +1,17 @@
+jps　列出系统中的java进程类似与ps
+
+jinfo　查看正在运行的java应用程序的扩展参数,支持在运行时修改部分参数
+
+jmap 生成java应用程序的堆快照和对象的统计信息
+jmap -histo PID >path　
+　　　　　　进程PID　快照路径
+jmap -dump:format=b,file=path pid
+
+jstack 打印线程dump
+
+
+jConsole 图形化监控工具,查看java应用程序运行概况,监控堆信息，永久区使用情况,类加载情况等
+
+
+
+

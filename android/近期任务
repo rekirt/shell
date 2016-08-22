@@ -1,0 +1,11 @@
+1 mvc设计模式
+2 mvp设计模式
+3 mvvm设计模式
+分别做出demo
+googleplay源码分析
+在线彩票源码分析
+搭建框架一个mvc框架，各层通过接口链接,并且每个界面分状态显示,数据泛型到adapter
+dynamicGridview
+
+
+shape,selector,layer-list,rote 组合运用

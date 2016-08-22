@@ -1,0 +1,93 @@
+1修改etc/hadoop/hadoop-env.sh
+
+# The java implementation to use.
+export JAVA_HOME=/root/tools/jdk/jdk1.8.0_05
+
+2修改core-site.xml
+
+<configuration>
+	<!--用来指定HDFS的NameNode的地址-->
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://192.168.0.10:9000</value>
+	</property>
+	<!--hadoop临时文件的存放地址-->
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/root/tools/hadoop/hadoop-2.4.1/hadooptmp</value>
+	</property>
+</configuration>
+
+3修改hdfs-site.xml
+
+<configuration>
+	<!--指定hdfs保存数据副本的数量-->
+        <property>
+                <name>dfs.replication</name>
+                <value>1</value>
+        </property>
+</configuration>
+
+4修改mapred-site.xml
+
+<configuration>
+	<!--指定mapreduce运行在yarn上-->
+        <property>
+                <name>mapreduce.framework.name</name>
+                <value>yarn</value>
+        </property>
+</configuration>
+
+5修改yarn-site.xml
+<configuration>	
+
+<!-- Site specific YARN configuration properties -->
+	<!--获取数据的方式是shuffle-->
+	<property>
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
+	</property>
+	<!--指定yarn的老大resourcemanager的地址-->
+	<property>
+		<name>yarn.resourcemanager.hostname</name>
+		<value>lc</value>
+	</property>
+</configuration>
+
+６配置hadoop环境变量
+export HADOOP_HOME=/root/tools/hadoop/hadoop-2.4.1
+export PATH=$PATH:$HADOOP_HOME/bin
+
+6格式化HDFS
+hadoop namenode -format (过时命令)
+hdfs namenode -format
+
+7启动hdfs和yarn
+在/sbin目录中执行./start-all.sh(过时,需要多次输入密码)
+
+8访问hadoop
+http://192.168.0.10:50070 (hdfs管理界面)
+http://192.168.0.10:8088 (yarn管理界面)
+
+ResourceManager是yarn的老大
+NodeManager是yarn的小弟
+
+NameNode是hdfs的老大(多个的)
+DataNode是hdfs的小弟
+SecondaryNameNode相当于NameNode的秘书助理(完成数据的非实时的同步)
+
+
+//从本地文件系统向hdfs上传文件
+hadoop fs -put jdk1.8.0_05.zip hdfs://192.168.0.10:9000/jdk
+//从hdfs文件系统下载文件到本地
+hadoop fs -get hdfs://192.168.0.10:9000/jdk ./jdkx
+
+
+测试MapReduce和Yarn
+
+
+
+
+
+
+

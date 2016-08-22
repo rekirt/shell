@@ -1,0 +1,13 @@
+2016-1-22
+
+1 向dialog传递的context必须位activity,dialog依赖于窗口,不能传入applicationContext
+2 android中的其他线程池类,Thread,AsyncTask,线程池
+3 如何对布局进行优化，比如隐藏的view不加载到内存中去,采用ViewStub
+4 简单工厂，抽象工厂，工厂方法的区别
+5　viewpager默认预加载几个页面,如何避免其他页面的网络请求在界面不显示时不加载
+6 activity的几种模式standard,singleTop,singleTask模式的区别
+7 timer的优缺点，
+8 handler是否会造成内存溢出
+9 在服务中如何更新界面,设置回调，注册广播
+
+
