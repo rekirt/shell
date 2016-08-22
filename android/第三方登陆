@@ -1,0 +1,185 @@
+QQ
+授权时返回信息
+auth_time===auth===
+uid===auth===A75996A7523EC00FEF9061DF08EDBA0A
+ret===auth===0
+pay_token===auth===5E836A3247F5F0ECF87A5B54DB9A5DBE
+pf===auth===desktop_m_qq-10000144-android-2002-
+sendinstall===auth===
+page_type===auth===
+appid===auth===
+expires_in===auth===7776000
+openid===auth===A75996A7523EC00FEF9061DF08EDBA0A
+pfkey===auth===dc14e890ccb50431d95a35e1a20c9a08
+access_token===auth===B9EF554E8D2E63F691353E4B05BFA23A
+
+获取个人信息时返回信息
+is_yellow_year_vip===info===0
+vip======0
+level======0
+province======北京
+yellow_vip_level======0
+is_yellow_vip======0
+gender======男
+openid======A75996A7523EC00FEF9061DF08EDBA0A
+screen_name======Diordna
+msg=====
+profile_image_url======http://q.qlogo.cn/qqapp/1105269485/A75996A7523EC00FEF9061DF08EDBA0A/100
+city======海淀
+
+
+微信
+授权
+expires_in======7200
+openid======oiox3s7-2kwsM5Dttm_NlYXrL9qg
+refresh_token======OezXcEiiBSKSxW0eoylIeMgWDvks9uDbFwYpnLdNM1u5xcGDwNL4IkAam390GGbo8UYaphdWTOn55LsgFWfY2IO90noQ-Nc9VfLnriIe5aIbB91VYOl9fpLDzYQRFnUdtXGVGOVT0MX88Bki24sB0A
+scope======snsapi_userinfo
+access_token======OezXcEiiBSKSxW0eoylIeMgWDvks9uDbFwYpnLdNM1u5xcGDwNL4IkAam390GGboCmMj47GtByYv8dy6R27qCFsn8VgoqGE-DZrg_rcMvbGjGkE1_JZl8WQKdxXCeNj9FgxTfIVgLRl_W-tm6WLCEA
+unionid======oG4ukv2Op01BsrmgtA-7q67ktqk4
+
+个人信息
+sex======1
+nickname======闯刘
+unionid======oG4ukv2Op01BsrmgtA-7q67ktqk4
+province======北京
+openid======oiox3s7-2kwsM5Dttm_NlYXrL9qg
+language======zh_CN
+headimgurl======http://wx.qlogo.cn/mmopen/7dib2NCfo7iaIoiaouMiatSQDibK31nxvQCVhKhOvVSBibNEicVnYbRS1xzd9qWdweSIaILT0IykVfNwUvib7NJt5XHsFUgCpmuavQjx/0
+country======中国
+city======海淀
+
+
+微博
+授权
+uid======5883855421
+expires_in======157679999
+scope======follow_app_official_microblog
+refresh_token======2.00tZDM7G9pOASEc1af59c6d6_ojLDE
+remind_in======157679999
+access_token======2.00tZDM7G9pOASE4a9c6daa2brhFkUB
+
+个人信息
+{
+    "id": 5883855421,
+    "idstr": "5883855421",
+    "class": 1,
+    "screen_name": "俺的律师网",
+    "name": "俺的律师网",
+    "province": "11",
+    "city": "5",
+    "location": "北京 朝阳区",
+    "description": "",
+    "url": "",
+    "profile_image_url": "http://tva2.sinaimg.cn/crop.0.0.750.750.50/006qc3zTjw8f345dsa1guj30ku0kuabd.jpg",
+    "cover_image_phone": "http://ww2.sinaimg.cn/crop.0.0.640.640/68f96449jw1ergqx79rw4j20hs0hswh0.jpg",
+    "profile_url": "u/5883855421",
+    "domain": "",
+    "weihao": "",
+    "gender": "m",
+    "followers_count": 1136,
+    "friends_count": 29,
+    "pagefriends_count": 0,
+    "statuses_count": 2,
+    "favourites_count": 0,
+    "created_at": "Sat Mar 19 13:47:35 +0800 2016",
+    "following": false,
+    "allow_all_act_msg": false,
+    "geo_enabled": true,
+    "verified": true,
+    "verified_type": 2,
+    "remark": "",
+    "status": {
+        "created_at": "Thu May 19 15:39:51 +0800 2016",
+        "id": 3976871818853266,
+        "mid": "3976871818853266",
+        "idstr": "3976871818853266",
+        "text": "5月17日，京师律所互联网企业法律事务部成立酒会,伴着“俺的律师网”即将上线的预热活动，在京师大讲堂隆重举行!云集了众多律师界大咖，小伙伴们听了一段段精彩的演讲，好涨姿势！最后还有帅气的品酒师带大家品鉴红酒，福利多多~更重要的是，聘请了十位顶级律师做为“俺的律师网”专家团，有这些大咖在",
+        "textLength": 400,
+        "source_allowclick": 0,
+        "source_type": 1,
+        "source": "<a href=\"http://weibo.com/\" rel=\"nofollow\">微博 weibo.com</a>",
+        "favorited": false,
+        "truncated": false,
+        "in_reply_to_status_id": "",
+        "in_reply_to_user_id": "",
+        "in_reply_to_screen_name": "",
+        "pic_urls": [
+            {
+                "thumbnail_pic": "http://ww3.sinaimg.cn/thumbnail/006qc3zTjw1f40qacwbquj30pg0nltbu.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww2.sinaimg.cn/thumbnail/006qc3zTjw1f40qb6u9kkj31kw11xqb6.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww2.sinaimg.cn/thumbnail/006qc3zTjw1f40qbi1seej31kw11x0yr.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww3.sinaimg.cn/thumbnail/006qc3zTjw1f40qbrzbbwj31kw11xtdj.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww4.sinaimg.cn/thumbnail/006qc3zTjw1f40qbwvpuuj31kw0vwtij.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww1.sinaimg.cn/thumbnail/006qc3zTjw1f40qdw90x9j31kw11xgs7.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww3.sinaimg.cn/thumbnail/006qc3zTjw1f40qe3s6uvj31kw11xah4.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww1.sinaimg.cn/thumbnail/006qc3zTjw1f40qecmtaaj31kw11xn4e.jpg"
+            },
+            {
+                "thumbnail_pic": "http://ww1.sinaimg.cn/thumbnail/006qc3zTjw1f40qei2opqj31kw11xtfh.jpg"
+            }
+        ],
+        "thumbnail_pic": "http://ww3.sinaimg.cn/thumbnail/006qc3zTjw1f40qacwbquj30pg0nltbu.jpg",
+        "bmiddle_pic": "http://ww3.sinaimg.cn/bmiddle/006qc3zTjw1f40qacwbquj30pg0nltbu.jpg",
+        "original_pic": "http://ww3.sinaimg.cn/large/006qc3zTjw1f40qacwbquj30pg0nltbu.jpg",
+        "geo": null,
+        "reposts_count": 0,
+        "comments_count": 0,
+        "attitudes_count": 0,
+        "isLongText": true,
+        "mlevel": 0,
+        "visible": {
+            "type": 0,
+            "list_id": 0
+        },
+        "biz_feature": 0,
+        "darwin_tags": [],
+        "hot_weibo_tags": [],
+        "text_tag_tips": [],
+        "userType": 0
+    },
+    "ptype": 0,
+    "allow_all_comment": true,
+    "avatar_large": "http://tva2.sinaimg.cn/crop.0.0.750.750.180/006qc3zTjw8f345dsa1guj30ku0kuabd.jpg",
+    "avatar_hd": "http://tva2.sinaimg.cn/crop.0.0.750.750.1024/006qc3zTjw8f345dsa1guj30ku0kuabd.jpg",
+    "verified_reason": "北京光明网信息管理技术有限公司官方微博",
+    "verified_trade": "",
+    "verified_reason_url": "",
+    "verified_source": "",
+    "verified_source_url": "",
+    "verified_state": 0,
+    "verified_level": 3,
+    "verified_reason_modified": "",
+    "verified_contact_name": "",
+    "verified_contact_email": "",
+    "verified_contact_mobile": "",
+    "follow_me": false,
+    "online_status": 0,
+    "bi_followers_count": 0,
+    "lang": "zh-cn",
+    "star": 0,
+    "mbtype": 2,
+    "mbrank": 2,
+    "block_word": 0,
+    "block_app": 0,
+    "credit_score": 80,
+    "user_ability": 0,
+    "urank": 3
+}
+
+
+
+
